@@ -1,0 +1,99 @@
+{
+  "properties": [
+    {
+      "name": "datasource.jdbc.driver",
+      "type": "java.lang.String",
+      "description": "JDBC连接驱动 datasource.hibernate.generate-ddl."
+    },
+    {
+      "name": "datasource.hibernate.generate-ddl",
+      "type": "java.lang.String",
+      "description": "Description for datasource.hibernate.generate-ddl."
+    },
+    {
+      "name": "datasource.jdbc.url",
+      "type": "java.lang.String",
+      "description": "Description for datasource.jdbc.url."
+    },
+    {
+      "name": "datasource.jdbc.user-name",
+      "type": "java.lang.String",
+      "description": "Description for datasource.jdbc.user-name."
+    },
+    {
+      "name": "datasource.jdbc.password",
+      "type": "java.lang.String",
+      "description": "Description for datasource.jdbc.password."
+    },
+    {
+      "name": "datasource.jdbc.initial-size",
+      "type": "java.lang.String",
+      "description": "Description for datasource.jdbc.initial-size."
+    },
+    {
+      "name": "datasource.jdbc.max-active",
+      "type": "java.lang.String",
+      "description": "Description for datasource.jdbc.max-active."
+    },
+    {
+      "name": "datasource.jdbc.max-wait",
+      "type": "java.lang.String",
+      "description": "Description for datasource.jdbc.max-wait."
+    },
+    {
+      "name": "datasource.hibernate.dialect",
+      "type": "java.lang.String",
+      "description": "Description for datasource.hibernate.dialect."
+    },
+    {
+      "name": "datasource.hibernate.max-fetch-depth",
+      "type": "java.lang.String",
+      "description": "Description for datasource.hibernate.max-fetch-depth."
+    },
+    {
+      "name": "datasource.hibernate.fetch-size",
+      "type": "java.lang.String",
+      "description": "Description for datasource.hibernate.fetch-size."
+    },
+    {
+      "name": "datasource.hibernate.batch-size",
+      "type": "java.lang.String",
+      "description": "Description for datasource.hibernate.batch-size."
+    },
+    {
+      "name": "datasource.hibernate.hbm2ddl-auto",
+      "type": "java.lang.String",
+      "description": "Description for datasource.hibernate.hbm2ddl-auto."
+    },
+    {
+      "name": "datasource.hibernate.show-sql",
+      "type": "java.lang.String",
+      "description": "Description for datasource.hibernate.show-sql."
+    },
+    {
+      "name": "datasource.hibernate.format-sql",
+      "type": "java.lang.String",
+      "description": "Description for datasource.hibernate.format-sql."
+    },
+    {
+      "name": "datasource.hibernate.validation-mode",
+      "type": "java.lang.String",
+      "description": "Description for datasource.hibernate.validation-mode."
+    },
+    {
+      "name": "datasource.hibernate.statistics",
+      "type": "java.lang.String",
+      "description": "Description for datasource.hibernate.statistics."
+    },
+    {
+      "name": "datasource.hibernate.use-query-cache",
+      "type": "java.lang.String",
+      "description": "Description for datasource.hibernate.use-query-cache."
+    },
+    {
+      "name": "datasource.hibernate.use-second-cache",
+      "type": "java.lang.String",
+      "description": "Description for datasource.hibernate.use-second-cache."
+    }
+  ]
+}

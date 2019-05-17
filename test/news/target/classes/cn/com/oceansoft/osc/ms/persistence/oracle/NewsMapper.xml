@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.oceansoft.osc.ms.persistence.NewsMapper">
+    <resultMap id="BaseResultMap" type="cn.com.oceansoft.osc.ms.domain.News">
+        <id column="GUID" jdbcType="VARCHAR" property="guid"/>
+        <result column="TITLE" jdbcType="VARCHAR" property="title"/>
+        <result column="TITLE_PIC" jdbcType="VARCHAR" property="titlePic"/>
+        <result column="CONTENT" jdbcType="VARCHAR" property="content"/>
+        <result column="APP_CONTENT" jdbcType="VARCHAR" property="appContent"/>
+        <result column="AUTHOR" jdbcType="VARCHAR" property="author"/>
+        <result column="SOURCE" jdbcType="VARCHAR" property="source"/>
+        <result column="PUBLIC_TIME" jdbcType="TIMESTAMP" property="publicTime"/>
+        <result column="CATEGORY" jdbcType="VARCHAR" property="category"/>
+        <result column="CREATED_TIME" jdbcType="TIMESTAMP" property="createdTime"/>
+        <result column="CREATER" jdbcType="VARCHAR" property="creater"/>
+        <result column="END_TIME" jdbcType="TIMESTAMP" property="endTime"/>
+        <result column="NEWSTYPE" jdbcType="VARCHAR" property="newsType"/>
+        <result column="HOT" jdbcType="VARCHAR" property="hot"/>
+        <result column="RECOMMEND" jdbcType="VARCHAR" property="recommend"/>
+        <result column="DELETED" jdbcType="VARCHAR" property="deleted"/>
+        <result column="fileUrl" jdbcType="VARCHAR" property="fileUrl"/>
+        <result column="syncTime" jdbcType="TIMESTAMP" property="syncTime"/>
+        <result column="updateTime" jdbcType="TIMESTAMP" property="updateTime"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    GUID, TITLE, TITLE_PIC, CONTENT, APP_CONTENT, AUTHOR, SOURCE, PUBLIC_TIME, CATEGORY,
+    CREATED_TIME, CREATER, END_TIME, NEWSTYPE, HOT, RECOMMEND, DELETED, fileUrl, syncTime,
+    updateTime
+    </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from IO_NES_BASE
+        where GUID = #{guid,jdbcType=VARCHAR}
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from IO_NES_BASE
+    where GUID = #{guid,jdbcType=VARCHAR}
+  </delete>
+
+    <insert id="insert" parameterType="cn.com.oceansoft.osc.ms.domain.News">
+    insert into IO_NES_BASE (GUID, TITLE, TITLE_PIC,
+      CONTENT, APP_CONTENT, AUTHOR,
+      SOURCE, PUBLIC_TIME, CATEGORY,
+      CREATED_TIME, CREATER, END_TIME,
+      NEWSTYPE, HOT, RECOMMEND,
+      DELETED, fileUrl, syncTime,
+      updateTime)
+    values (#{guid,jdbcType=VARCHAR}, #{title,jdbcType=VARCHAR}, #{titlePic,jdbcType=VARCHAR},
+      #{content,jdbcType=VARCHAR}, #{appContent,jdbcType=VARCHAR}, #{author,jdbcType=VARCHAR},
+      #{source,jdbcType=VARCHAR}, #{publicTime,jdbcType=TIMESTAMP}, #{category,jdbcType=VARCHAR},
+      #{createdTime,jdbcType=TIMESTAMP}, #{creater,jdbcType=VARCHAR}, #{endTime,jdbcType=TIMESTAMP},
+      #{newsType,jdbcType=VARCHAR}, #{hot,jdbcType=VARCHAR}, #{recommend,jdbcType=VARCHAR},
+      #{deleted,jdbcType=VARCHAR}, #{fileUrl,jdbcType=VARCHAR}, #{syncTime,jdbcType=TIMESTAMP},
+      #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+   <!-- <update id="updateByPrimaryKey" parameterType="cn.com.oceansoft.osc.ms.domain.News">
+    update IO_NES_BASE
+    set TITLE = #{title,jdbcType=VARCHAR},
+      TITLE_PIC = #{titlePic,jdbcType=VARCHAR},
+      CONTENT = #{content,jdbcType=VARCHAR},
+      APP_CONTENT = #{appContent,jdbcType=VARCHAR},
+      AUTHOR = #{author,jdbcType=VARCHAR},
+      SOURCE = #{source,jdbcType=VARCHAR},
+      PUBLIC_TIME = #{publicTime,jdbcType=TIMESTAMP},
+      CATEGORY = #{category,jdbcType=VARCHAR},
+      CREATED_TIME = #{createdTime,jdbcType=TIMESTAMP},
+      CREATER = #{creater,jdbcType=VARCHAR},
+      END_TIME = #{endTime,jdbcType=TIMESTAMP},
+      NEWSTYPE = #{newsType,jdbcType=VARCHAR},
+      HOT = #{hot,jdbcType=VARCHAR},
+      RECOMMEND = #{recommend,jdbcType=VARCHAR},
+      DELETED = #{deleted,jdbcType=VARCHAR},
+      fileUrl = #{fileUrl,jdbcType=VARCHAR},
+      syncTime = #{syncTime,jdbcType=TIMESTAMP},
+      updateTime = #{updateTime,jdbcType=TIMESTAMP}
+    where GUID = #{guid,jdbcType=VARCHAR}
+  </update>-->
+    <update id="updateByPrimaryKey" parameterType="cn.com.oceansoft.osc.ms.domain.News">
+        update IO_NES_BASE
+        <trim prefix="set" suffixOverrides="," suffix="where GUID = #{guid,jdbcType=VARCHAR}">
+            <if test="title != null">TITLE = #{title,jdbcType=VARCHAR},</if>
+            <if test="titlePic != null">TITLE_PIC = #{titlePic,jdbcType=VARCHAR},</if>
+            <if test="content != null">CONTENT = #{content,jdbcType=VARCHAR},</if>
+            <if test="appContent != null">APP_CONTENT = #{appContent,jdbcType=VARCHAR},</if>
+            <if test="author != null">AUTHOR = #{author,jdbcType=VARCHAR},</if>
+            <if test="source != null">SOURCE = #{source,jdbcType=VARCHAR},</if>
+            <if test="publicTime != null">PUBLIC_TIME = #{publicTime,jdbcType=TIMESTAMP},</if>
+            <if test="category != null">CATEGORY = #{category,jdbcType=VARCHAR},</if>
+            <if test="createdTime != null">CREATED_TIME = #{createdTime,jdbcType=TIMESTAMP},</if>
+            <if test="creater != null">CREATER = #{creater,jdbcType=VARCHAR},</if>
+            <if test="endTime != null">END_TIME = #{endTime,jdbcType=TIMESTAMP},</if>
+            <if test="newsType != null">NEWSTYPE = #{newsType,jdbcType=VARCHAR},</if>
+            <if test="hot != null">HOT = #{hot,jdbcType=VARCHAR},</if>
+            <if test="recommend != null">RECOMMEND = #{recommend,jdbcType=VARCHAR},</if>
+            <if test="deleted != null">DELETED = #{deleted,jdbcType=VARCHAR},</if>
+            <if test="fileUrl != null">fileUrl = #{fileUrl,jdbcType=VARCHAR},</if>
+            <if test="syncTime != null">syncTime = #{syncTime,jdbcType=TIMESTAMP},</if>
+            <if test="updateTime != null">updateTime = #{updateTime,jdbcType=TIMESTAMP},</if>
+        </trim>
+    </update>
+    <select id="getNewsByTitle" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from IO_NES_BASE
+        where 1 =1
+        <if test="title != null'">
+        and title like CONCAT('%',#{parkCode},'%')
+        </if>
+    </select>
+    <select id="getNews" resultType="cn.com.oceansoft.osc.ms.domain.News">
+        select
+        guid,
+        CATEGORY,
+        TITLE,
+        title_pic as titlePic,
+        to_char(PUBLIC_TIME,'yyyy-mm-dd') as publicTime,
+        to_char(end_time,'yyyy-mm-dd') as endTime
+        from IO_NES_BASE
+        where DELETED ='N'
+        <if test="kw !=null and kw !=''">
+            and CATEGORY=#{kw}
+        </if>
+        ${where}
+        order by public_time DESC
+    </select>
+    <select id="getNewsById" resultType="cn.com.oceansoft.osc.ms.domain.News">
+        select
+        guid,
+        TITLE_PIC as titlePic,
+        CATEGORY,
+        title,
+        to_char(PUBLIC_TIME,'yyyy-mm-dd') as  publicTime,
+        source,
+        CONTENT
+        from Io_nes_base
+        where GUID=#{guid}
+    </select>
+    <select id="getAllNews" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from IO_NES_BASE order by public_time DESC
+    </select>
+</mapper>

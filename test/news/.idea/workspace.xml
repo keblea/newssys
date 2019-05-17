@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5d50d45-20ca-469d-85b8-66482114f9db" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/service/NewsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/service/impl/NewsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/ApiPager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/ApiQueryBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/persistence/postgresql/NewsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3210">
+              <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/ApiQueryResolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/News.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3090#3091#0" expanded="true" />
+                <element signature="e#3116#3117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/controller/NewsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Base_Column_List</find>
+      <find>getNString</find>
+      <find>getAllNews</find>
+      <find>String</find>
+      <find>deleteByPrimaryKey</find>
+      <find>getNewsByTitle</find>
+      <find>add</find>
+      <find>getnewsbyid</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/domain/ApiQueryBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/persistence/postgresql/NewsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/service/NewsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/domain/ApiPager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/config/AppConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/domain/ApiQueryResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/domain/ApiQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/domain/News.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/service/impl/NewsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/persistence/NewsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/NewsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/ApiQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/NewsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/NewsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/service/NewsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allpackage/service/NewsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allpackage/persistence/oracle/NewsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allpackage/persistence/postgresql/NewsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allpackage/service/impl/NewsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allpackage/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allpackage/persistence/NewsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/allpackage/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/ApiQueryBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/persistence/postgresql/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/ApiUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/persistence/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/utils/UUIDUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/persistence/oracle/NewsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/News.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/persistence/NewsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/service/NewsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/service/impl/NewsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/persistence/postgresql/NewsMapper.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven3.60/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="news" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="news" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558062565699" />
+    <property name="last_opened_file_path" value="D:/vueproject/xinnews" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.oceansoft.osc.ms.domain" />
+      <recent name="cn.ucox.web.ms.news.allpackage" />
+      <recent name="cn.ucox.web.ms.news.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workproject\news\src\main\java\cn\com\oceansoft\osc\ms\persistence\oracle" />
+      <recent name="E:\workproject\news\src\main\java\com\allpackage\persistence\oracle" />
+      <recent name="E:\workproject\news\src\main\java\cn\ucox\web\ms\news\allpackage" />
+      <recent name="E:\workproject\news\src\main\java\cn\ucox\web\ms\news\persistence" />
+      <recent name="E:\workproject\news\src\main\java\cn\ucox\web\ms\news\persistence\oracle" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="news" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5d50d45-20ca-469d-85b8-66482114f9db" name="Default Changelist" comment="" />
+      <created>1557020136251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557020136251</updated>
+      <workItem from="1557020140272" duration="487000" />
+      <workItem from="1557021519899" duration="14272000" />
+      <workItem from="1557105623672" duration="17002000" />
+      <workItem from="1557190848642" duration="12178000" />
+      <workItem from="1557277587527" duration="16221000" />
+      <workItem from="1557363832155" duration="29000" />
+      <workItem from="1557450031359" duration="18469000" />
+      <workItem from="1557542439538" duration="1789000" />
+      <workItem from="1557633932097" duration="650000" />
+      <workItem from="1557638984281" duration="3126000" />
+      <workItem from="1557709172600" duration="12714000" />
+      <workItem from="1557733307057" duration="4587000" />
+      <workItem from="1557795802130" duration="3225000" />
+      <workItem from="1557809184611" duration="10367000" />
+      <workItem from="1557882497870" duration="5287000" />
+      <workItem from="1557899733571" duration="3877000" />
+      <workItem from="1557968704832" duration="4400000" />
+      <workItem from="1557981381065" duration="2709000" />
+      <workItem from="1557996520589" duration="652000" />
+      <workItem from="1558054931613" duration="2530000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="149227000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49874687" visible="true" weight="0.22995462" />
+      <window_info id="Structure" order="1" sideWeight="0.5012531" side_tool="true" weight="0.2677761" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31096563" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41243863" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/validation_en_US.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/validation_zh_CN.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/additional-spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2587" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/applicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/persistence/oracle/NewsMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allpackage/persistence/NewsMapper.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/ucox/web/msc/framework/0.5.5/framework-0.5.5.jar!/cn/ucox/web/framework/configuration/MyBatisConfig.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/NewsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/ApiPager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/News.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/ApiQueryResolver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/ApiQueryBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/ApiQuery.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/NewsMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/NewsMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/NewsServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ucox/web/ms/news/allpackage/NewsService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.3.RELEASE/spring-beans-4.3.3.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/config/AppConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/ApiUser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/persistence/postgresql/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/persistence/oracle/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/persistence/UserMapper.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="244" selection-start-line="244" selection-end-line="244" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/utils/UUIDUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_92/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="112" column="51" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user-view.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/persistence/oracle/NewsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="108" column="44" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="56" column="17" selection-start-line="52" selection-start-column="1" selection-end-line="60" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/ApiQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/persistence/NewsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/service/NewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/ApiPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/ApiQueryBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/persistence/postgresql/NewsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3210">
+          <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/ApiQueryResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/domain/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3090#3091#0" expanded="true" />
+            <element signature="e#3116#3117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/controller/NewsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/oceansoft/osc/ms/service/impl/NewsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>news</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

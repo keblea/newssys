@@ -1,0 +1,97 @@
+server:
+  context-path: /
+  error:
+    whitelabel:
+      enabled: true
+    path: /error
+  compression:
+    enabled: true
+    mime-types: ['text/html','application/json','application/xml']
+  port: 8081
+#Spring配置
+spring:
+  cloud:
+    inetutils:
+      default-ip-address: ${eureka.instance.hostname}
+  freemarker:
+    cache: false
+    charset: utf-8
+    check-template-location: true
+    expose-session-attributes: true
+    expose-request-attributes: true
+    allow-request-override: true
+  messages:
+    basename: i18n/messages
+    encoding: utf-8
+    cache-seconds: -1
+  jackson:
+    serialization: false
+    date-format: java.text.SimpleDateFormat
+#Feign配置
+feign:
+  httpclient:
+    enable: true
+#hystrix配置
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+datasource:
+  jdbc:
+    dbType: postgresql
+    driver: org.postgresql.Driver
+    url: jdbc:postgresql://172.17.100.131:5432/train?charSet=utf-8
+    userName: train
+    password: 123456
+    initalSize: 10
+    minIdle: 2
+    maxActive: 40
+    maxWait: 5000
+  redis:
+    host: 172.17.100.135
+    port: 6379
+    password:
+    usePool: true
+    maxIdle: 2
+    maxWaitMillis: 1000
+    maxTotal: 50
+    testOnBorrow: true
+#系统配置
+osc:
+  config:
+    doc:
+      title: OSCv3.0
+      team-name: OSC3.0产品开发部
+      website: http://www.oceansoft.com.cn
+      email: javacspring@gmail.com
+      description: 第一个内部测试版本
+      license: GPR
+      version: 1.0
+      license-url: 1.0
+      service-url: http://www.doc.oceansoft.com.cn
+    filters:
+      cros:
+        enable: true
+    cache:
+      names:
+        - redis
+      transaction-aware: true
+      load-remote-caches-on-startup: true
+    upload:
+      max-file-upload: 5294080
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
+  client:
+    region: sz
+    availability-zones:
+      sz: default-zone
+    registry-fetch-interval-seconds: 10
+    service-url:
+      default-zone: http://10.110.13.8:1010/eureka/
